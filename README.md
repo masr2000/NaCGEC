@@ -58,8 +58,6 @@ The top 3 participating teams will be certificated by NLPCC and CCF-NLP.
 
 ## Contact & Citation
 
-If you have any questions about this task, please email to masr21@mails.tsinghua.edu.cn (C.C. liyinghu20@mails.tsinghua.edu.cn, zheng.haitao@sz.tsinghua.edu.cn).
-
 If your publication employs our dataset, please cite the following article:
 
 ```\
@@ -71,5 +69,8 @@ If your publication employs our dataset, please cite the following article:
 }
 ```
 
+If you have any questions about this task, please email to masr21@mails.tsinghua.edu.cn (C.C. liyinghu20@mails.tsinghua.edu.cn, zheng.haitao@sz.tsinghua.edu.cn).
 
+Or you can scan the QR code to join the following WeChat group:
 
+![qrcode](assets\qrcode.jpg)
