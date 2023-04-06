@@ -55,6 +55,8 @@ The top 3 participating teams will be certificated by NLPCC and CCF-NLP.
 | 6       | Wangxuan Institute of Computer Technology, Peking University | PKU-WICT     |
 | 7       | 杭州十域科技有限公司                                         | jojolee      |
 | 8       | 北京大学                                                     | 鱼饼啾啾Plus |
+| 9       | Beihang University                                           | BUAA NLP     |
+| 10      | 上海哔哩哔哩科技有限公司                                     | chole        |
 
 ## Contact & Citation
 
