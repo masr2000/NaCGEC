@@ -73,4 +73,4 @@ If you have any questions about this task, please email to masr21@mails.tsinghua
 
 Or you can scan the QR code to join the following WeChat group:
 
-![qrcode](assets\qrcode.jpg)
+![qrcode](assets/qrcode.jpg)
