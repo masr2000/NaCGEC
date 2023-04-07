@@ -57,6 +57,8 @@ The top 3 participating teams will be certificated by NLPCC and CCF-NLP.
 | 8       | 北京大学                                                     | 鱼饼啾啾Plus |
 | 9       | Beihang University                                           | BUAA NLP     |
 | 10      | 上海哔哩哔哩科技有限公司                                     | chole        |
+| 11      | Beijing Normal University, School of Artificial Intelligence, The Language and Character Resources Research Center of Beijing Normal University | Lrt123       |
+| 12      | Yunnan University                                            | YNU-HPCC     |
 
 ## Contact & Citation
 
