@@ -24,7 +24,7 @@ We provide a CGEC benchmark named *NaCGEC*, which focuses on grammatical errors 
 - Validation: `nacgec.dev.ref.para` (put in `data`) includes 500 sentences and corresponding correct sentences sampled from the original dataset. **The validation set can be utilized for model performance testing and hyper-parameter tuning, but it cannot be directly used for model training. Each line of `nacgec.dev.ref.para` contains one training sample, and the format of a line is `<id>\t<source>\t<target1>\t<target2>...\n`. If `<target1>` and `<source>` in a line are the same, the `<source>` does not contain grammatical errors.**
 - Test: `nacgec.test.input` (will be released at 05/21) includes 5869 sentences that may contain grammatical errors. Participants should use CGEC model to detect and correct each sentence and output the correct sentence.
 
-**For model training, only the data provided by [this link](https://cloud.tsinghua.edu.cn/f/9e46b10b52564736b0f3/) is allowed to be used as supervised data, i.e, parallel data, which includes [Lang8](http://tcci.ccf.org.cn/conference/2018/taskdata.php), [HSK](https://cloud.tsinghua.edu.cn/f/9e46b10b52564736b0f3/),  [CGED](https://github.com/blcuicall/cged_datasets), [MuCGEC](https://github.com/HillZhang1999/MuCGEC), [YACLC](https://github.com/blcuicall/YACLC) and [CTC2021](https://github.com/destwang/CTC2021), in this shared task. When using these data, please follow the rules set by the original data publisher.** Meanwhile, **for unsupervised data, any corpus publicly available on the web is allowed to be used. **Based on unsupervised data, participants can use any data augmentation methods, such as [our work](https://github.com/masr2000/CLG-CGEC) or other methods, to construct pseudo-parallel data for model training.
+**For model training, only the data provided by [this link](https://cloud.tsinghua.edu.cn/f/9e46b10b52564736b0f3/) is allowed to be used as supervised data, i.e, parallel data, which includes [Lang8](http://tcci.ccf.org.cn/conference/2018/taskdata.php), [HSK](https://cloud.tsinghua.edu.cn/f/9e46b10b52564736b0f3/),  [CGED](https://github.com/blcuicall/cged_datasets), [MuCGEC](https://github.com/HillZhang1999/MuCGEC), [YACLC](https://github.com/blcuicall/YACLC) and [CTC2021](https://github.com/destwang/CTC2021), in this shared task. When using these data, please follow the rules set by the original data publisher.** Meanwhile, **for unsupervised data, any corpus publicly available on the web is allowed to be used.** Based on unsupervised data, participants can use any data augmentation methods, such as [our work](https://github.com/masr2000/CLG-CGEC) or other methods, to construct pseudo-parallel data for model training.
 
 For more information related to this dataset, please refer to our paper: [Linguistic Rules-Based Corpus Generation for Native Chinese Grammatical Error Correction](https://arxiv.org/pdf/2210.10442.pdf). If there are any differences between the paper and this page, the content of this page should prevail.
 
@@ -45,20 +45,21 @@ The top 3 participating teams will be certificated by NLPCC and CCF-NLP.
 
 ## Participants
 
-| Team ID | Organization                                                 | System Name  |
-| ------- | ------------------------------------------------------------ | ------------ |
-| 1       | Natural language processing laboratory of zhengzhou university | ZZUNLP       |
-| 2       | MOE Key Laboratory of Computational Linguistics, School of Computer Science, Peking University | CGEC先遣队   |
-| 3       | NanKai University, College of Computer Science, DBIS         | NLP Beginner |
-| 4       | Harbin Institute of Technology, Shenzhen ; School of Computer Science and Technology ; HappyTrans@HITsz | HappyTrans   |
-| 5       | School of Computer Science & Technology, Beijing Institute of Technology | zhao jia     |
-| 6       | Wangxuan Institute of Computer Technology, Peking University | PKU-WICT     |
-| 7       | 杭州十域科技有限公司                                         | jojolee      |
-| 8       | 北京大学                                                     | 鱼饼啾啾Plus |
-| 9       | Beihang University                                           | BUAA NLP     |
-| 10      | 上海哔哩哔哩科技有限公司                                     | chole        |
-| 11      | Beijing Normal University, School of Artificial Intelligence, The Language and Character Resources Research Center of Beijing Normal University | Lrt123       |
-| 12      | Yunnan University                                            | YNU-HPCC     |
+| Team ID | Organization                                                 | System Name           |
+| ------- | ------------------------------------------------------------ | --------------------- |
+| 1       | Natural language processing laboratory of zhengzhou university | ZZUNLP                |
+| 2       | MOE Key Laboratory of Computational Linguistics, School of Computer Science, Peking University | CGEC先遣队            |
+| 3       | NanKai University, College of Computer Science, DBIS         | NLP Beginner          |
+| 4       | Harbin Institute of Technology, Shenzhen ; School of Computer Science and Technology ; HappyTrans@HITsz | HappyTrans            |
+| 5       | School of Computer Science & Technology, Beijing Institute of Technology | zhao jia              |
+| 6       | Wangxuan Institute of Computer Technology, Peking University | PKU-WICT              |
+| 7       | 杭州十域科技有限公司                                         | jojolee               |
+| 8       | 北京大学                                                     | 鱼饼啾啾Plus          |
+| 9       | Beihang University                                           | BUAA NLP              |
+| 10      | 上海哔哩哔哩科技有限公司                                     | chole                 |
+| 11      | Beijing Normal University, School of Artificial Intelligence, The Language and Character Resources Research Center of Beijing Normal University | Lrt123                |
+| 12      | Yunnan University                                            | YNU-HPCC              |
+| 13      | Huawei Translation Services Center                           | HW_TSC_nlpcc2023_cgec |
 
 ## Contact & Citation
 
