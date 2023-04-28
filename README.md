@@ -60,6 +60,11 @@ The top 3 participating teams will be certificated by NLPCC and CCF-NLP.
 | 11      | Beijing Normal University, School of Artificial Intelligence, The Language and Character Resources Research Center of Beijing Normal University | Lrt123                |
 | 12      | Yunnan University                                            | YNU-HPCC              |
 | 13      | Huawei Translation Services Center                           | HW_TSC_nlpcc2023_cgec |
+| 14      | Zhongyuan University of Technology                           | zutnlp-wuyanbo        |
+| 15      | Yunnan University                                            | YNU-Janko             |
+| 16      | NLP, School of Computer Science and Technology, Soochow University & NLP, School of Data Science, The Chinese University of Hong Kong, Shenzhen | CUHK_SU               |
+| 17      | Social Computing Lab , Southeast University                  | CGEC++                |
+| 18      | State Key Lab of Communication Content Cognition, People’s Daily Online | cc414                 |
 
 ## Contact & Citation
 
