@@ -65,6 +65,10 @@ The top 3 participating teams will be certificated by NLPCC and CCF-NLP.
 | 16      | NLP, School of Computer Science and Technology, Soochow University & NLP, School of Data Science, The Chinese University of Hong Kong, Shenzhen | CUHK_SU               |
 | 17      | Social Computing Lab , Southeast University                  | CGEC++                |
 | 18      | State Key Lab of Communication Content Cognition, People’s Daily Online | cc414                 |
+| 19      | Fudan University                                             | cisl-nlp              |
+| 20      | Ant Group                                                    | Lastonestands         |
+| 21      | School of Information Science and Technology, Guangdong University of Foreign Studies; School of Computer Science and Technology, Guangdong University of Technology | BERT 4EVER            |
+| 22      | School of Data Science and Engineering, East China Normal University | GGBond                |
 
 ## Contact & Citation
 
