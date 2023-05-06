@@ -8,6 +8,8 @@ Chinese Grammatical Error Correction (CGEC) aims to automatically correct gramma
 
 All updates about this shared task will be posted on this page.
 
+- 2023/05/05：Registration has been closed. If you have already registered, please check the `Participants` list.
+
 ## Important Dates
 
 - 2023/03/15：registration open
@@ -69,6 +71,7 @@ The top 3 participating teams will be certificated by NLPCC and CCF-NLP.
 | 20      | Ant Group                                                    | Lastonestands         |
 | 21      | School of Information Science and Technology, Guangdong University of Foreign Studies; School of Computer Science and Technology, Guangdong University of Technology | BERT 4EVER            |
 | 22      | School of Data Science and Engineering, East China Normal University | GGBond                |
+| 23      | Text Machine Translation Lab, Huawei Technologies Co., Ltd.  | HW-TSC                |
 
 ## Contact & Citation
 
