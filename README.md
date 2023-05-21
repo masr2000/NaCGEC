@@ -8,6 +8,8 @@ Chinese Grammatical Error Correction (CGEC) aims to automatically correct gramma
 
 All updates about this shared task will be posted on this page.
 
+- 2023/05/21：The input of test data has been released. The file is located at `data/nacgec.test.input`. Please note that the submission deadline is 2023/05/31.
+
 - 2023/05/05：Registration has been closed. If you have already registered, please check the `Participants` list.
 
 ## Important Dates
@@ -24,7 +26,7 @@ All updates about this shared task will be posted on this page.
 We provide a CGEC benchmark named *NaCGEC*, which focuses on grammatical errors made by native Chinese speakers. In this task, the benchmark data is split into two parts: Validation and Test.
 
 - Validation: `nacgec.dev.ref.para` (put in `data`) includes 500 sentences and corresponding correct sentences sampled from the original dataset. **The validation set can be utilized for model performance testing and hyper-parameter tuning, but it cannot be directly used for model training. Each line of `nacgec.dev.ref.para` contains one training sample, and the format of a line is `<id>\t<source>\t<target1>\t<target2>...\n`. If `<target1>` and `<source>` in a line are the same, the `<source>` does not contain grammatical errors.**
-- Test: `nacgec.test.input` (will be released at 05/21) includes 5869 sentences that may contain grammatical errors. Participants should use CGEC model to detect and correct each sentence and output the correct sentence.
+- Test: `nacgec.test.input` (also put in `data`) includes 5869 sentences that may contain grammatical errors. Participants should use CGEC model to detect and correct each sentence and output the correct sentence.
 
 **For model training, only the data provided by [this link](https://cloud.tsinghua.edu.cn/f/9e46b10b52564736b0f3/) is allowed to be used as supervised data, i.e, parallel data, which includes [Lang8](http://tcci.ccf.org.cn/conference/2018/taskdata.php), [HSK](https://cloud.tsinghua.edu.cn/f/9e46b10b52564736b0f3/),  [CGED](https://github.com/blcuicall/cged_datasets), [MuCGEC](https://github.com/HillZhang1999/MuCGEC), [YACLC](https://github.com/blcuicall/YACLC) and [CTC2021](https://github.com/destwang/CTC2021), in this shared task. When using these data, please follow the rules set by the original data publisher.** Meanwhile, **for unsupervised data, any corpus publicly available on the web is allowed to be used.** Based on unsupervised data, participants can use any data augmentation methods, such as [our work](https://github.com/masr2000/CLG-CGEC) or other methods, to construct pseudo-parallel data for model training.
 
@@ -87,7 +89,3 @@ If your publication employs our dataset, please cite the following article:
 ```
 
 If you have any questions about this task, please email to masr21@mails.tsinghua.edu.cn (C.C. liyinghu20@mails.tsinghua.edu.cn, zheng.haitao@sz.tsinghua.edu.cn).
-
-Or you can scan the QR code to join the following WeChat group:
-
-![qrcode](assets/qrcode.jpg)
