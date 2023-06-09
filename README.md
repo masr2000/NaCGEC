@@ -1,4 +1,4 @@
-# NLPCC2023 Shared Task 1: Chinese Grammatical Error  Correction
+# NLPCC2023 Shared Task 1: Chinese Grammatical Error Correction
 
 ## Task Introduction
 
@@ -7,6 +7,8 @@ Chinese Grammatical Error Correction (CGEC) aims to automatically correct gramma
 ## Updates
 
 All updates about this shared task will be posted on this page.
+
+- 2023/06/10：The leaderboard has been published.
 
 - 2023/05/21：The input of test data has been released. The file is located at `data/nacgec.test.input`. Please note that the submission deadline is 2023/05/31.
 
@@ -20,6 +22,108 @@ All updates about this shared task will be posted on this page.
 - 2023/05/21：release of test data
 - 2023/05/31：participants’ results submission deadline
 - 2023/06/10：evaluation results release and call for system reports and conference paper
+
+## Leaderboard
+
+<table>
+<thead>
+  <tr>
+    <th rowspan="2">Rank</th>
+    <th rowspan="2">System Name</th>
+    <th colspan="3">MaxMatch</th>
+    <th colspan="3">ChERRANT</th>
+    <th rowspan="2">Score</th>
+  </tr>
+  <tr>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F0.5</th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F0.5</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>HW_TSC_nlpcc2023_cgec</td>
+    <td>56.23</td>
+    <td>33.3</td>
+    <td>49.42</td>
+    <td>50.95</td>
+    <td>31.29</td>
+    <td>45.26</td>
+    <td>47.34</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>鱼饼啾啾Plus</td>
+    <td>57.08</td>
+    <td>12.94</td>
+    <td>33.94</td>
+    <td>54.5</td>
+    <td>13.06</td>
+    <td>33.34</td>
+    <td>33.64</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>CUHK_SU</td>
+    <td>38.82</td>
+    <td>15.58</td>
+    <td>29.9</td>
+    <td>45.4</td>
+    <td>15.15</td>
+    <td>32.45</td>
+    <td>31.175</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>CGEC++</td>
+    <td>24.14</td>
+    <td>7.35</td>
+    <td>16.57</td>
+    <td>21.11</td>
+    <td>7.32</td>
+    <td>15.33</td>
+    <td>15.95</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>zhao_jia</td>
+    <td>17.19</td>
+    <td>14.78</td>
+    <td>16.65</td>
+    <td>13.51</td>
+    <td>13.43</td>
+    <td>13.49</td>
+    <td>15.07</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>ZZUNLP</td>
+    <td>4.31</td>
+    <td>0.99</td>
+    <td>2.58</td>
+    <td>2.21</td>
+    <td>0.59</td>
+    <td>1.43</td>
+    <td>2.005</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>YNU-Janko</td>
+    <td>0.51</td>
+    <td>6.36</td>
+    <td>0.62</td>
+    <td>0.93</td>
+    <td>2.34</td>
+    <td>1.06</td>
+    <td>0.84</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## Data Description & Rules
 
