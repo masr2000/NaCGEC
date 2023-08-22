@@ -8,6 +8,8 @@ Chinese Grammatical Error Correction (CGEC) aims to automatically correct gramma
 
 All updates about this shared task will be posted on this page.
 
+- 2023/08/22：Ground truths of test data has been released.
+
 - 2023/06/10：The leaderboard has been published.
 
 - 2023/05/21：The input of test data has been released. The file is located at `data/nacgec.test.input`. Please note that the submission deadline is 2023/05/31.
